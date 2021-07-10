@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Roboto Slab', serif;
-    /* margin: 0; */
+    margin: 0;
 }
 
 h1 { font-size: 48px; }
@@ -56,6 +56,10 @@ h3 { font-size: 24px; }
 .wrapper {
     display: grid;
     gap: 20px;
+    width: 100vw;
+    height: 100vh;
+    align-content: stretch;
+    grid-template-rows: 60px auto auto 100px;
     grid-template-areas: 
         "header"
         "nav"
@@ -68,6 +72,7 @@ h3 { font-size: 24px; }
 /* Tela média */
 @media (min-width: 500px) {
     .wrapper {
+        grid-template-rows: 60px 60px auto 100px;
         grid-template-columns: 1fr 3fr;
         grid-template-areas:
             "header     header"
@@ -84,6 +89,7 @@ h3 { font-size: 24px; }
 /* Tela Grande */
 @media (min-width: 700px) {
     .wrapper {
+        grid-template-rows: 60px auto auto 100px;
         grid-template-columns: 1fr 4fr 1fr;
         grid-template-areas: 
             "header header  header"
