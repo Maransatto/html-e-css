@@ -63,3 +63,17 @@ main {
 .description > p {
     text-align: justify;
 }
+
+.rules {
+    padding: 20px 20px;
+}
+
+.rules h3 {
+    margin-top: 40px;
+    color: #660000;
+}
+
+.rules p,
+.rules ol {
+    text-align: left;
+}
