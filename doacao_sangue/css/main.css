@@ -39,5 +39,16 @@ header > h3 {
 
 main {
     position: relative;
+    text-align: center;
     top: 60px;
+}
+
+.main-title {
+    color: #660000;
+}
+
+.main-image {
+    text-align: cente;
+    width: 250px;
+    height: 250px;
 }
