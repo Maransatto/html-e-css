@@ -34,6 +34,7 @@ h3 { font-size: 24px; }
     grid-area: footer;
 }
 
+/* Padrão: Smartphone */
 .wrapper {
     display: grid;
     gap: 20px;
@@ -44,4 +45,20 @@ h3 { font-size: 24px; }
         "sidebar"
         "ad"
         "footer";
+}
+
+/* Tela média */
+@media (min-width: 500px) {
+    .wrapper {
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas:
+            "header header"
+            "nav nav"
+            "sidebar content"
+            "ad footer"
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
 }
