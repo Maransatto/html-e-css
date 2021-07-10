@@ -4,4 +4,10 @@
 
 body {
     font-family: 'Roboto Slab', serif;
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
