@@ -12,26 +12,44 @@ h3 { font-size: 24px; }
 
 .main-head {
     grid-area: header;
+    border: 2px solid green;
+    background-color: beige;
+    border-radius: 5px;
 }
 
 .content {
     grid-area: content;
+    border: 2px solid green;
+    background-color: beige;
+    border-radius: 5px;
 }
 
 .main-nav {
     grid-area: nav;
+    border: 2px solid green;
+    background-color: beige;
+    border-radius: 5px;
 }
 
 .side {
     grid-area: sidebar;
+    border: 2px solid green;
+    background-color: beige;
+    border-radius: 5px;
 }
 
 .ad {
     grid-area: ad;
+    border: 2px solid green;
+    background-color: beige;
+    border-radius: 5px;
 }
 
 .main-footer {
     grid-area: footer;
+    border: 2px solid green;
+    background-color: beige;
+    border-radius: 5px;
 }
 
 /* Padrão: Smartphone */
