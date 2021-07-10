@@ -52,3 +52,14 @@ main {
     width: 250px;
     height: 250px;
 }
+
+.description {
+    background-color: #B76262;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 40px;
+}
+
+.description > p {
+    text-align: justify;
+}
